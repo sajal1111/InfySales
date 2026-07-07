@@ -1,0 +1,7 @@
+.outer
+{
+    width: 400px; height: 400px;
+    border: 1px black solid;
+    background-color: gainsboro;
+    margin: auto;
+}

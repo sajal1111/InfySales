@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root">*</div>
+    <script>
+                                   //(tagName,props,content)
+       /* let hone=React.createElement("h1",null,"Welcome Again");
+        console.log(hone);
+        ReactDOM.render(hone,document.getElementById("root"));//send it on view
+        */
+
+        let prntDiv=React.createElement("div",{id:"prnt"},[
+            React.createElement("h1",null,"Its H1 Tag"),
+            React.createElement("h2",null,"Its H2 Tag"),
+
+        ]);
+       
+        ReactDOM.render(prntDiv,document.getElementById("root"));//send it on view
+    </script>
+</body>
+</html>

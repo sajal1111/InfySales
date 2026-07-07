@@ -1,0 +1,37 @@
+
+.menu-div
+{
+    line-height: 40px; padding-left: 20px;
+    width: 1000px;
+    background-color: gainsboro;
+    display: block;
+   
+}
+.menu-item{
+    float: left;
+}
+.title
+{
+    float:left;
+   
+}
+.mr{
+    margin-right: 100px;
+}
+.btn{
+     color: black;
+    margin-right: 10px;
+    background-color: gainsboro;
+    line-height: 30px;
+    margin-top:  5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+input[type=search]
+{
+     background-image: url("../assets/react.svg");
+     background-repeat: no-repeat;
+     background-position:right;
+     background-size: contain;
+ }
